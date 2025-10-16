@@ -268,3 +268,4 @@ window.addEventListener('resize', () => {
 });
 
 showStage('stage-inicio');
+
