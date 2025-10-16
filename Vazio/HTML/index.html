@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>O Cartaz em Evidência — Brainrot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <!-- Etapa 1: Poster principal -->
+  <div id="stage-inicio" class="stage active">
+    <div class="canvas-container">
+      <canvas id="canvas-inicio"></canvas>
+      <button id="btn-iniciar" class="skeumorph-btn btn-overlay">INICIAR</button>
+    </div>
+  </div>
+  <!-- Etapa 2: Manifesto -->
+  <div id="stage-manifesto" class="stage">
+    <div class="manifesto-bg">
+      <div id="manifesto-animado"></div>
+      <button id="btn-avancar-cartaz" class="skeumorph-btn btn-overlay" style="display:none;">GLITCHAR</button>
+    </div>
+  </div>
+  <!-- Etapa 3: Cartazes glitchados -->
+  <div id="stage-glitch" class="stage">
+    <div class="canvas-container">
+      <canvas id="canvas-glitch"></canvas>
+      <button id="btn-proximo" class="skeumorph-btn btn-overlay">corromper</button>
+    </div>
+  </div>
+  <!-- Etapa 4: Poster brinde -->
+  <div id="stage-brinde" class="stage">
+    <div class="brinde-fullscreen">
+      <canvas id="canvas-brinde"></canvas>
+      <div class="brinde-controls-overlay">
+        <input id="userInput" type="text" placeholder="Digite uma palavra ou frase..." maxlength="50" />
+        <button id="btn-glitch-palavra" class="skeumorph-btn">Glitch</button>
+        <button id="btn-baixar-brinde" class="skeumorph-btn">Baixar</button>
+      </div>
+    </div>
+  </div>
+  <script src="../JS/script.js"></script>
+</body>
+</html>
