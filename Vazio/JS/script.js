@@ -1,15 +1,15 @@
 const posterPrincipal = '../Imagens/poster.png';
 const glitchImages = [
-  '../Imagens/glitch1.png',
-  '../Imagens/glitch2.png',
-  '../Imagens/glitch3.png',
-  '../Imagens/glitch4.png',
-  '../Imagens/glitch5.png',
-  '../Imagens/glitch6.png',
-  '../Imagens/glitch7.png',
-  '../Imagens/glitch8.png',
-  '../Imagens/glitch9.png',
-  '../Imagens/glitch10.png'
+  'Imagens/glitch1.png',
+  'Imagens/glitch2.png',
+  'Imagens/glitch3.png',
+  'Imagens/glitch4.png',
+  'Imagens/glitch5.png',
+  'Imagens/glitch6.png',
+  'Imagens/glitch7.png',
+  'Imagens/glitch8.png',
+  'Imagens/glitch9.png',
+  'Imagens/glitch10.png'
 ];
 const manifestoTxt = `Hoje, criar é conversar com o código,
 é pedir à máquina para sonhar junto.
@@ -266,4 +266,5 @@ window.addEventListener('resize', () => {
     drawGlitchPoster(ordemGlitch[indexGlitch], false);
   if (document.getElementById('stage-brinde').classList.contains('active')) drawBrindePoster();
 });
+
 showStage('stage-inicio');
