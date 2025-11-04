@@ -1,4 +1,4 @@
-const posterPrincipal = '../Imagens/poster.png';
+const posterPrincipal = 'Imagens/poster.png';
 const glitchImages = [
   'Imagens/glitch1.png',
   'Imagens/glitch2.png',
